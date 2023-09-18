@@ -1,0 +1,55 @@
+# Dinner Dash
+
+Dinner Dash is a web application that allows users to order food online from various restaurants. It provides a convenient platform for users to browse menus, place orders, and track their deliveries.
+
+## Features
+
+- User registration and authentication
+- Restaurant listings and menus
+- Cart functionality for adding and managing food items
+- Order placement and tracking
+- Admin dashboard for managing restaurants and orders
+- Email verification for user accounts
+
+## Technologies Used
+
+- MongoDB: Database for storing user information, restaurant data, and orders
+- Express.js: Web application framework for building the server-side API
+- React: Front-end library for building the user interface
+- Node.js: Runtime environment for executing server-side JavaScript
+- Bootstrap: CSS framework for responsive and modern UI design
+- JWT: JSON Web Tokens for user authentication and authorization
+- Nodemailer: Library for sending verification emails
+- Axios: HTTP client for making API requests
+
+- Node Version v16.20.1
+- npm Version 9.14.4
+- db version v6.0.6
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/dinner-dash.git
+   ```
+
+2. Open Frontend/Dinner Dash
+
+- Write 'npm install' in command line
+- Write 'npm start' to start frontend
+
+3. Open Server
+
+- Write 'npm install' in command line
+- Write 'npm start' to start Server
+
+4. Open 'localhost:3000' to access the website
+
+5. Install mongodb and intialize your credentials
+
+6. Change your crendentials in .env file for mongodb
+
+7. Change your email configurations credentials in .env
+
+8. Run seed.js file for seed data.

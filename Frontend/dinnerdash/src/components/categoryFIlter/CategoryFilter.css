@@ -1,0 +1,76 @@
+.category-filter-container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.categories {
+  flex-basis: 10%;
+  padding: 1rem;
+}
+
+.items {
+  flex-basis: 90%;
+  padding: 1rem;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.card {
+  width: 100%;
+}
+
+.filterCard {
+  background-color: #ffffffc9;
+}
+
+.category-filter-container {
+  display: flex;
+  margin-top: 10vh;
+}
+
+.categories {
+  width: 10%;
+  background-color: #faf9f9d1;
+  border-radius: 20px;
+}
+
+.items {
+  width: 90%;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.card {
+  width: 100%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #ccc;
+}
+
+.card-img-top {
+  height: 300px;
+}

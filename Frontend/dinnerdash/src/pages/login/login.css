@@ -1,0 +1,16 @@
+.login-form {
+  height: 400px;
+  display: flex;
+  margin-top: 300px;
+  align-items: center;
+  text-align: center;
+}
+
+.form {
+  width: 400px;
+}
+
+.container {
+  align-items: center;
+  text-align: center;
+}

@@ -1,0 +1,68 @@
+const itemSeedData = [
+  {
+    title: "Pizza",
+    description: "great",
+    price: 1000,
+    categories: [],
+    photo: "",
+    inStock: true,
+  },
+  {
+    title: "Burger",
+    description: "with fries",
+    price: 200,
+    categories: [],
+    photo: "",
+    inStock: true,
+  },
+  {
+    title: "Large Pizza",
+    description: "great",
+    price: 1000,
+    categories: [],
+    photo: "",
+    inStock: true,
+  },
+  {
+    title: "Large Burger",
+    description: "with fries",
+    price: 200,
+    categories: [],
+    photo: "",
+    inStock: true,
+  },
+  {
+    title: "small Pizza",
+    description: "great",
+    price: 1000,
+    categories: [],
+    photo: "",
+    inStock: true,
+  },
+  {
+    title: "small Burger",
+    description: "with fries",
+    price: 200,
+    categories: [],
+    photo: "",
+    inStock: true,
+  },
+  {
+    title: "Supreme Pizza",
+    description: "great",
+    price: 1000,
+    categories: [],
+    photo: "",
+    inStock: true,
+  },
+  {
+    title: "Beef Burger",
+    description: "with fries",
+    price: 200,
+    categories: [],
+    photo: "",
+    inStock: true,
+  },
+];
+
+module.exports = itemSeedData;
